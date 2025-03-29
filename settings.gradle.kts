@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = "leetcode"
-include("lib")
+include("problems")

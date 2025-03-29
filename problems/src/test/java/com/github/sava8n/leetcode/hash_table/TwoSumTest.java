@@ -10,6 +10,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class TwoSumTest {
+
     @ParameterizedTest
     @MethodSource("cases")
     void check_case(int[] nums, int target, int[] expected) {
