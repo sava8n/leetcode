@@ -1,13 +1,12 @@
-
 package com.github.sava8n.leetcode.hash_table;
 
 import java.util.HashMap;
 
 /**
- * Problem: https://leetcode.com/problems/two-sum/description
+ * Problem: <a href="https://leetcode.com/problems/two-sum/description">Two Sum</a>
  * Difficulty: Easy
  */
-class TwoSum {
+public class TwoSum {
     public int[] solve(int[] nums, int target) {
         var map = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {

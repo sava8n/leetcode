@@ -10,10 +10,9 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class TwoSumTest {
-
     @ParameterizedTest
     @MethodSource("cases")
-    void check_for_case(int[] nums, int target, int[] expected) {
+    void check_case(int[] nums, int target, int[] expected) {
         var result = new TwoSum().solve(nums, target);
         Arrays.sort(result);
 
