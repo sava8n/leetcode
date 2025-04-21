@@ -12,8 +12,8 @@ class LongestSubstringWithoutRepeatingCharactersTest {
 
     @ParameterizedTest
     @MethodSource("cases")
-    void check_case(String sting, int expected) {
-        var result = new LongestSubstringWithoutRepeatingCharacters().solve(sting);
+    void check_case(String string, int expected) {
+        var result = new LongestSubstringWithoutRepeatingCharacters().solve(string);
         assertEquals(expected, result);
     }
 

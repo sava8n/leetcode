@@ -3,7 +3,7 @@ package com.github.sava8n.leetcode.hash_table;
 import java.util.HashMap;
 
 /**
- * Problem: <a href="https://leetcode.com/problems/two-sum/description">Two Sum</a>
+ * Problem: <a href="https://leetcode.com/problems/two-sum">Two Sum</a>
  * Difficulty: Easy
  */
 public class TwoSum {

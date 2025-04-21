@@ -20,19 +20,19 @@ class AddTwoNumbersTest {
     private static Stream<Arguments> cases() {
         return Stream.of(
                 Arguments.of(
-                        ListNode.from(new int[] { 2, 4, 3 }),
-                        ListNode.from(new int[] { 5, 6, 4 }),
-                        ListNode.from(new int[] { 7, 0, 8 })
+                        ListNode.from(new int[] {2, 4, 3}),
+                        ListNode.from(new int[] {5, 6, 4}),
+                        ListNode.from(new int[] {7, 0, 8})
                 ),
                 Arguments.of(
-                        ListNode.from(new int[] { 0 }),
-                        ListNode.from(new int[] { 0 }),
-                        ListNode.from(new int[] { 0 })
+                        ListNode.from(new int[] {0}),
+                        ListNode.from(new int[] {0}),
+                        ListNode.from(new int[] {0})
                 ),
                 Arguments.of(
-                        ListNode.from(new int[] { 9, 9, 9, 9, 9, 9, 9 }),
-                        ListNode.from(new int[] { 9, 9, 9, 9 }),
-                        ListNode.from(new int[] { 8, 9, 9, 9, 0, 0, 0, 1 })
+                        ListNode.from(new int[] {9, 9, 9, 9, 9, 9, 9}),
+                        ListNode.from(new int[] {9, 9, 9, 9}),
+                        ListNode.from(new int[] {8, 9, 9, 9, 0, 0, 0, 1})
                 )
         );
     }

@@ -3,7 +3,7 @@ package com.github.sava8n.leetcode.string;
 import java.util.HashSet;
 
 /**
- * Problem: <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</a>
+ * Problem: <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">Longest Substring Without Repeating Characters</a>
  * Difficulty: Medium
  */
 public class LongestSubstringWithoutRepeatingCharacters {
@@ -17,7 +17,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
                 set.add(ch);
                 p2++;
                 max = Math.max(max, set.size());
-            } else {
+            }
+            else {
                 set.remove(s.charAt(p1));
                 p1++;
             }

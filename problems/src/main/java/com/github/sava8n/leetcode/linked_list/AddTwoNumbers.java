@@ -1,7 +1,7 @@
 package com.github.sava8n.leetcode.linked_list;
 
 /**
- * Problem: <a href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers</a>
+ * Problem: <a href="https://leetcode.com/problems/add-two-numbers">Add Two Numbers</a>
  * Difficulty: Medium
  */
 public class AddTwoNumbers {
