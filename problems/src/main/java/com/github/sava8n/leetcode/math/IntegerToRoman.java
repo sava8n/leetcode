@@ -11,11 +11,11 @@ public class IntegerToRoman {
 
         var res = new StringBuilder();
         for (var i = 0; i < values.length; i++) {
-            if(num == 0)
+            if (num == 0)
                 break;
 
             var times = num / values[i];
-            while(times > 0) {
+            while (times > 0) {
                 res.append(symbols[i]);
                 times -= 1;
             }
