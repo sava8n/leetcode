@@ -27,6 +27,6 @@ This repository contains Java solutions to LeetCode problems, organized by algor
 
 Feel free to add new solutions or improve existing ones.
 Please ensure that:
-- new solutions follow the established package structure
-- each solution includes a comment with a link to the LeetCode problem and its difficulty level
-- tests are provided to validate the algorithm
+- new solutions follow the established package structure;
+- each solution includes a comment with a link to the LeetCode problem and its difficulty level;
+- tests are provided to validate the algorithm.
