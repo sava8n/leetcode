@@ -23,6 +23,7 @@ This repository contains Java solutions to LeetCode problems, organized by algor
 | 1 | [Reverse String](https://leetcode.com/problems/reverse-string)                         | `Arrays and strings` | Easy       | [Solution](problems/src/main/java/com/github/sava8n/leetcode/arays_and_strings/ReverseString.java)           | [Test cases](problems/src/test/java/com/github/sava8n/leetcode/arays_and_strings/ReverseStringTest.java)           |
 | 2 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)   | `Arrays and strings` | Easy       | [Solution](problems/src/main/java/com/github/sava8n/leetcode/arays_and_strings/SquaresOfASortedArray.java)   | [Test cases](problems/src/test/java/com/github/sava8n/leetcode/arays_and_strings/SquaresOfASortedArrayTest.java)   |
 | 3 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | `Arrays and strings` | Easy       | [Solution](problems/src/main/java/com/github/sava8n/leetcode/arays_and_strings/MaximumAverageSubarrayI.java) | [Test cases](problems/src/test/java/com/github/sava8n/leetcode/arays_and_strings/MaximumAverageSubarrayITest.java) |
+| 4 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii)     | `Arrays and strings` | Medium     | [Solution](problems/src/main/java/com/github/sava8n/leetcode/arays_and_strings/MaxConsecutiveOnesIII.java)   | [Test cases](problems/src/test/java/com/github/sava8n/leetcode/arays_and_strings/MaxConsecutiveOnesIIITest.java)   |
 
 ## Contribution
 
